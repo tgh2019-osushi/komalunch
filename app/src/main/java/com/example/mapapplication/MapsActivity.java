@@ -31,6 +31,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         test0();
+        Intent intent = getIntent();
+       // String message = intent.getStringExtra(MainPage.EXTRA_MESSAGE);
 
     }
 
@@ -62,7 +64,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     // 緯度経度を入れて経路を検索
-    private void test1(){
+ /*   private void test1(){
         // 起点の緯度経度
         String src_lat = "35.661140";
         String src_ltg = "139.684286";
@@ -86,7 +88,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         intent.setData(Uri.parse(str));
         startActivity(intent);
-    }
+    }*/
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
