@@ -22,11 +22,6 @@ public class MainPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), shop_info_activity.class);
-<<<<<<< HEAD
-               // String message = "マクドナルド駒場東大前店";
-               // intent.putExtra(EXTRA_MESSAGE,message);
-=======
->>>>>>> 0f362bcebb539a5c8b38e7a5d00327f1a3b43359
                 startActivity(intent);
             }
         });

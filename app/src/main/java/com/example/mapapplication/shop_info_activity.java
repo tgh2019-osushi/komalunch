@@ -14,7 +14,7 @@ public class shop_info_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop_info_activity);
 
-        Button nextButton = findViewById(R.id.next_button);
+        Button nextButton = findViewById(R.id.map_button);
         nextButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
