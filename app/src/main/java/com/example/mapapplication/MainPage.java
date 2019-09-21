@@ -21,7 +21,7 @@ public class MainPage extends AppCompatActivity {
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplication(), MapsActivity.class);
+                Intent intent = new Intent(getApplication(), shop_info_activity.class);
                // String message = "マクドナルド駒場東大前店";
                // intent.putExtra(EXTRA_MESSAGE,message);
                 startActivity(intent);
