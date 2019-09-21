@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".shop_info_activity">
 
+<<<<<<< HEAD
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="470dp"
@@ -40,5 +41,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
+=======
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="73dp"
+        android:layout_height="32dp"
+        android:text="Back"
+        app:layout_constraintBaseline_toBaselineOf="@+id/next_button"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mac_info_background"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="0dp" />
+>>>>>>> 0f362bcebb539a5c8b38e7a5d00327f1a3b43359
 
 </androidx.constraintlayout.widget.ConstraintLayout>

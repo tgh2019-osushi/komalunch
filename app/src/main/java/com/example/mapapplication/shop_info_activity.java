@@ -14,8 +14,14 @@ public class shop_info_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop_info_activity);
 
+<<<<<<< HEAD
         Button sendButton = findViewById(R.id.map_button);
         sendButton.setOnClickListener(new View.OnClickListener() {
+=======
+
+        Button nextButton = findViewById(R.id.next_button);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+>>>>>>> 0f362bcebb539a5c8b38e7a5d00327f1a3b43359
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), MapsActivity.class);
