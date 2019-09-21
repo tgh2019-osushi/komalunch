@@ -55,8 +55,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // 出発地, 目的地, 交通手段
         String str = String.format(Locale.US,
-                "http://www.google.com/maps/dir/%s/%s/%s/dirflg=%s",
-                "駒場 ５号館", "マクドナルド 駒場東大前店","駒場 ７号館", dir[1]);
+                "https://www.google.com/maps/dir/%s/%s/%s/?dirflg=%s",
+                "駒場 ５号館", "マクドナルド 駒場東大前店","駒場 ７号館", dir[2]);
 
         intent.setData(Uri.parse(str));
         startActivity(intent);
